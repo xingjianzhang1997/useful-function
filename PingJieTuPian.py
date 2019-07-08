@@ -12,7 +12,7 @@ num = 0
 os.chdir("D:/python/BCI/Data")
 im_list = [Image.open(fn) for fn in listdir() if fn.endswith('.jpg')]
 
-for i in range(1236):     # i=0,i=1
+for i in range(1236):     # len（im_list）==1236
     # 图片转化为相同的尺寸
     ims = []
     for a in im_list[num:num+3]:
