@@ -33,3 +33,4 @@ for i in range(1236):     # i=0,i=1
     result.save('D:/python/BCI/jpg-data/jpg%d.label.jpg' %(i+1))
     num = num + 3
 
+    
